@@ -3,7 +3,7 @@ name: Upload Image to GitHub
 on:
   workflow_dispatch:
     inputs:
-      file_path:
+      file_path: uploaded_image
         description: 'Path to the image to upload'
         required: true
 
